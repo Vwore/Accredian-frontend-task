@@ -18,7 +18,7 @@ const ReferralModal = ({isOpen, setIsOpen}) => {
     e.preventDefault();
     // Handle form submission logic
     console.log(formData);
-    axios.post('http://localhost:3001/referrals',{
+    axios.post('https://accredian-backend-task-4-hd7z.onrender.com/referrals',{
         'RefererName': formData.refererName,
     'RefererEmail': formData.refererEmail,
     'RefreeName': formData.refreeName,
